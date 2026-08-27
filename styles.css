@@ -1,0 +1,131 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.concerningAll {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    position:fixed;
+    margin-top: 15%;
+}
+.swArea {
+    margin-top: 10%;
+    margin-left: 30%;
+    height: 0vh;
+}
+
+.stopwatch {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5%;
+    margin-right: 2%;
+}
+.addorsubtract {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+}
+.inputarea {
+    display: flex;
+    margin-top:5%
+}
+
+.disp {
+    font-size: 4em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    width: 420px;
+}
+.overall {
+    display: flex;
+}
+.counter {
+    margin-left: 5%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.multDisp {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 420px;
+}
+
+button {
+    background-color:#007bff;
+    color:#f0f0f0;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.height {
+    margin-top: 14px;
+    height: 40px;
+}
+
+.safe {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    
+}
+.dangerous {
+    background-color: #f33838; /* Red */
+    color: white;
+}
+.veryDangerous {
+    font-size: 17px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    background-color: rgb(255, 145, 0);
+}
+
+input[type="number"] {
+    /* Dimensions and spacing */
+    width: 50px; /* Set a specific width */
+    padding: 10px;
+    margin: 10px 10px;
+    
+    /* Font style */
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333; /* Dark gray text */
+    
+    /* Border and appearance */
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 5px; /* Slightly rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: border-color 0.3s ease; /* Smooth transition for hover/focus */
+}
+
+.newSwButton {
+    margin-top: 5%;
+}
+.startAllButton {
+    background-color: #a285d4;
+}
+.resetAllButton {
+    background-color: #979797;
+}
+
+#total {
+    font-size: 20px;
+    font-weight:bold;
+}
