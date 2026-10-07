@@ -1,12 +1,42 @@
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
 }
+
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 95vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.navBar {
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.navElement {
+    padding: 10px 10px;
+    color: #007bff;
+    margin: 0 2% 0 2%;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.navElement:hover {
+    background-color: #007bff;
+    color: #f0f0f0;
+    transition: 0.5s ease;
+
+}
+
 .concerningAll {
     align-items: center;
     justify-content: center;
@@ -14,9 +44,10 @@ body {
     flex-direction: column;
     padding-left: 10%;
     padding-right: 10%;
-    position:fixed;
+    position: fixed;
     margin-top: 15%;
 }
+
 .swArea {
     margin-top: 10%;
     margin-left: 30%;
@@ -32,6 +63,7 @@ body {
     margin-bottom: 5%;
     margin-right: 2%;
 }
+
 .addorsubtract {
     text-align: center;
     padding: 20px;
@@ -40,9 +72,10 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 5%;
 }
+
 .inputarea {
     display: flex;
-    margin-top:5%
+    margin-top: 5%
 }
 
 .disp {
@@ -51,14 +84,17 @@ body {
     font-weight: bold;
     width: 420px;
 }
+
 .overall {
     display: flex;
 }
+
 .counter {
     margin-left: 5%;
     font-size: 30px;
     font-weight: bold;
 }
+
 .multDisp {
     font-size: 20px;
     margin-top: 20px;
@@ -67,8 +103,8 @@ body {
 }
 
 button {
-    background-color:#007bff;
-    color:#f0f0f0;
+    background-color: #007bff;
+    color: #f0f0f0;
     padding: 10px 20px;
     font-size: 1em;
     margin: 5px;
@@ -76,20 +112,25 @@ button {
     border: none;
     border-radius: 5px;
 }
+
 .height {
     margin-top: 14px;
     height: 40px;
 }
 
 .safe {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
+    /* Green */
     color: white;
-    
+
 }
+
 .dangerous {
-    background-color: #f33838; /* Red */
+    background-color: #f33838;
+    /* Red */
     color: white;
 }
+
 .veryDangerous {
     font-size: 17px;
     margin-left: 30px;
@@ -99,33 +140,47 @@ button {
 
 input[type="number"] {
     /* Dimensions and spacing */
-    width: 50px; /* Set a specific width */
+    width: 50px;
+    /* Set a specific width */
     padding: 10px;
     margin: 10px 10px;
-    
+
     /* Font style */
     font-size: 1.2em;
     font-weight: bold;
-    color: #333; /* Dark gray text */
-    
+    color: #333;
+    /* Dark gray text */
+
     /* Border and appearance */
-    border: 2px solid #007bff; /* Blue border */
-    border-radius: 5px; /* Slightly rounded corners */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    transition: border-color 0.3s ease; /* Smooth transition for hover/focus */
+    border: 2px solid #007bff;
+    /* Blue border */
+    border-radius: 5px;
+    /* Slightly rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    transition: border-color 0.3s ease;
+    /* Smooth transition for hover/focus */
 }
 
 .newSwButton {
     margin-top: 5%;
 }
+
 .startAllButton {
     background-color: #a285d4;
 }
+
 .resetAllButton {
     background-color: #979797;
 }
 
 #total {
     font-size: 20px;
-    font-weight:bold;
+    font-weight: bold;
+}
+
+
+
+.listArea {
+    width: 25%;
 }

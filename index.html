@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Stopwatch</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="concerningAll" id="controlArea">
-        <p id="total">Total Stopwatches: 0</p>
-        <button class="newSwButton" id="addSwButton">Add Stopwatch</button>
-        <button class="startAllButton" id="stopAllButton">Start/Stop All</button>
-        <button class="resetAllButton" id="resAllButton">Reset All</button>
-        <input type="number" name="quantity" id="allHrInput" step="1" placeholder="HH">
-        <input type="number" name="quantity" id="allMinInput" step="1" placeholder="MM">
-        <input type="number" name="quantity" id="allSecInput" step="1" placeholder="SS">
-        <button class="addAllButton" id="allAddButton">Add to All</button>
-    </div>
-    <div class="swArea" id="swSection"></div>
 
+<body>
+    <div class="navBar">
+        <a class="navElement" href="index.html">Stopwatch</a>
+        <a class="navElement" href="timetracker.html">Time Tracker</a>
+    </div>
+    <div class="main">
+        <div class="concerningAll" id="controlArea">
+            <p id="total">Total Stopwatches: 0</p>
+            <button class="newSwButton" id="addSwButton">Add Stopwatch</button>
+            <button class="startAllButton" id="stopAllButton">Start/Stop All</button>
+            <button class="resetAllButton" id="resAllButton">Reset All</button>
+            <input type="number" name="quantity" id="allHrInput" step="1" placeholder="HH">
+            <input type="number" name="quantity" id="allMinInput" step="1" placeholder="MM">
+            <input type="number" name="quantity" id="allSecInput" step="1" placeholder="SS">
+            <button class="addAllButton" id="allAddButton">Add to All</button>
+        </div>
+        <div class="swArea" id="swSection"></div>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
