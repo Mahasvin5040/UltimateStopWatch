@@ -8,6 +8,8 @@ class Event {
         this.totalTime = totalTime;
         this.color = color;
     }
+}
 
+function newEvent() {
 
 }
