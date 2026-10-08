@@ -14,10 +14,24 @@
         <a class="navElement" href="timetracker.html">Time Tracker</a>
     </div>
     <div class="main">
-        <div class="listArea">
+        <div class="area" id="listArea">
+            <div class="inputarea">
+                <input type="text" placeholder="Event Name" id="eventName">
+                <input type="text" placeholder="Event Tag" id="eventTag">
+                <input type="text" placeholder="Event Start Time" id="eventStartTime">
+                <input type="text" placeholder="Event End Time" id="eventEndTime">
+                <input type="text" placeholder="Event Total Time" id="eventTotalTime">
+                <input type="color" placeholder="Event Color" id="eventColor">
+            </div>
             <button class="newEvButton" id="addEvButton">Add New Event</button>
-            <div class="subheading" id="listTitle"><b>Event</b></div>
-            <div class="item" id="listItem">Test</div>
+            <div class="subheading" id="listTitle"><b>Event Log</b></div>
+            <div class="item" id="listItem">
+                <div class="name" id="name">Test</div>
+                <div class="tag" id="tag">Tag</div>
+                <div class="time" id="time">123m</div>
+                <div class="color" id="color">#007bff</div>
+                <button class="removeEventButton" id="removeEventButton">Remove</button>
+            </div>
         </div>
         <div class="chartArea">
 

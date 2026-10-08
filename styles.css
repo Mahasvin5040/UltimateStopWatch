@@ -181,7 +181,19 @@ input[type="number"] {
 
 
 
-.listArea {
-    width: 25%;
+.area {
+    width: 20%;
     padding: 10px 10px;
+}
+
+.item {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 2%;
+    padding: 20px;
+
 }
